@@ -2,3 +2,11 @@
 apply plugin: 'java'
 apply plugin: 'idea'
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.guava:guava:12.0'
+    compile 'com.jhlabs:filters:2.0.235'
+}
