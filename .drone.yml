@@ -1,6 +1,6 @@
 build:
   image: drone/golang:1.5
   commands:
-    - ls
+    - ls -la
 
     
